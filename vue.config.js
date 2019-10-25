@@ -29,7 +29,7 @@ module.exports = {
         ]
     },
     devServer: {
-        port: 8038,
+        port: 8040,
         hot: true,
         open: 'Google Chrome'
     },

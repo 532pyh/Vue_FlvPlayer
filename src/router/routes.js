@@ -5,8 +5,8 @@ function load(component) {
 const routes = [
     {
         path: '/',
-        name: 'home',
-        component: load('Home'),
+        name: 'player',
+        component: load('player'),
         meta: {
             title: '首页'
         }
