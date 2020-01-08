@@ -1,26 +1,6 @@
 <template>
     <div>
-        <div style="margin:10px 0">
-            <el-button type="primary" @click="keepLiveVideo">开始直播</el-button>
-            <el-button type="primary" @click="keepLiveVideo2">开始直播</el-button>
-            <el-button type="primary" @click="stopLiveVideo">停止直播</el-button>
-        </div>
         <video ref="video1" controls autoplay width="340" height="260" poster="http://pic34.nipic.com/20131030/2455348_194508648000_2.jpg" @pause="handlePause" @play="handlePlay">Your browser is too old which doesn't support HTML5 video.</video>
-        <!-- <video ref="video2" controls autoplay width="340" height="260" poster="http://pic34.nipic.com/20131030/2455348_194508648000_2.jpg" @pause="handlePause" @play="handlePlay">Your browser is too old which doesn't support HTML5 video.</video>
-        <video ref="video3" controls autoplay width="340" height="260" poster="http://pic34.nipic.com/20131030/2455348_194508648000_2.jpg" @pause="handlePause" @play="handlePlay">Your browser is too old which doesn't support HTML5 video.</video>
-        <video ref="video4" controls autoplay width="340" height="260" poster="http://pic34.nipic.com/20131030/2455348_194508648000_2.jpg" @pause="handlePause" @play="handlePlay">Your browser is too old which doesn't support HTML5 video.</video>
-        <video ref="video5" controls autoplay width="340" height="260" poster="http://pic34.nipic.com/20131030/2455348_194508648000_2.jpg" @pause="handlePause" @play="handlePlay">Your browser is too old which doesn't support HTML5 video.</video>
-        <video ref="video6" controls autoplay width="340" height="260" poster="http://pic34.nipic.com/20131030/2455348_194508648000_2.jpg" @pause="handlePause" @play="handlePlay">Your browser is too old which doesn't support HTML5 video.</video>
-        <video ref="video7" controls autoplay width="340" height="260" poster="http://pic34.nipic.com/20131030/2455348_194508648000_2.jpg" @pause="handlePause" @play="handlePlay">Your browser is too old which doesn't support HTML5 video.</video>
-        <video ref="video8" controls autoplay width="340" height="260" poster="http://pic34.nipic.com/20131030/2455348_194508648000_2.jpg" @pause="handlePause" @play="handlePlay">Your browser is too old which doesn't support HTML5 video.</video>
-        <video ref="video9" controls autoplay width="340" height="260" poster="http://pic34.nipic.com/20131030/2455348_194508648000_2.jpg" @pause="handlePause" @play="handlePlay">Your browser is too old which doesn't support HTML5 video.</video>
-        <video ref="video10" controls autoplay width="340" height="260" poster="http://pic34.nipic.com/20131030/2455348_194508648000_2.jpg" @pause="handlePause" @play="handlePlay">Your browser is too old which doesn't support HTML5 video.</video>
-        <video ref="video11" controls autoplay width="340" height="260" poster="http://pic34.nipic.com/20131030/2455348_194508648000_2.jpg" @pause="handlePause" @play="handlePlay">Your browser is too old which doesn't support HTML5 video.</video>
-        <video ref="video12" controls autoplay width="340" height="260" poster="http://pic34.nipic.com/20131030/2455348_194508648000_2.jpg" @pause="handlePause" @play="handlePlay">Your browser is too old which doesn't support HTML5 video.</video>
-        <video ref="video13" controls autoplay width="340" height="260" poster="http://pic34.nipic.com/20131030/2455348_194508648000_2.jpg" @pause="handlePause" @play="handlePlay">Your browser is too old which doesn't support HTML5 video.</video>
-        <video ref="video14" controls autoplay width="340" height="260" poster="http://pic34.nipic.com/20131030/2455348_194508648000_2.jpg" @pause="handlePause" @play="handlePlay">Your browser is too old which doesn't support HTML5 video.</video>
-        <video ref="video15" controls autoplay width="340" height="260" poster="http://pic34.nipic.com/20131030/2455348_194508648000_2.jpg" @pause="handlePause" @play="handlePlay">Your browser is too old which doesn't support HTML5 video.</video>
-        <video ref="video16" controls autoplay width="340" height="260" poster="http://pic34.nipic.com/20131030/2455348_194508648000_2.jpg" @pause="handlePause" @play="handlePlay">Your browser is too old which doesn't support HTML5 video.</video> -->
     </div>
 </template>
 <script>
